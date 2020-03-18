@@ -11,6 +11,9 @@ git config --global user.email "joseph@climber.com"
 
 # remova a opção --global para fazer configurações somente no repositório local
 git config user.name "J. Climber" 
+
+# Lista as configurações
+git config --list
 ```
 
 ## Criação
