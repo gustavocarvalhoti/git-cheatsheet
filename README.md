@@ -222,6 +222,7 @@ git commit --amend
 
 # retira a versão do arquivo da área de stage (é o oposto do git add)
 git reset HEAD <arquivo>
+git reset --hard HEAD~1
 
 # desfaz as alterações do arquivo no diretório de trabalho
 git checkout -- <arquivo>
